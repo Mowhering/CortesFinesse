@@ -6,8 +6,8 @@ import logoapp from '../assets/imgs/logoapp.png';
 export default function Logo() {
     return (
         <View>
-            <Image source={logoapp} style={Styles.logoBarbearia}/>  
+            <Image source={logoapp} style={Styles.logoBarbearia} />
         </View>
     )
-          
+
 }

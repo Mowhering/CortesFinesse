@@ -6,7 +6,7 @@ export default function Inputs({ text }) {
   return (
     <KeyboardAvoidingView>
       <Text style={Styles.textInputNome}>{text}</Text>
-      <TextInput style={Styles.input}></TextInput>
+      <TextInput style={Styles.input} ></TextInput>
     </KeyboardAvoidingView>
   );
 }

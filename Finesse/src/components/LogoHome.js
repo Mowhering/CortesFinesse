@@ -6,8 +6,8 @@ import logohome from '../assets/imgs/logohome.png';
 export default function LogoHome() {
     return (
         <View>
-            <Image source={logohome} style={Styles.logohome}/>  
+            <Image source={logohome} style={Styles.logohome} />
         </View>
     )
-          
+
 }

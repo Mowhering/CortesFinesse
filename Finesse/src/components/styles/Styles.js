@@ -1,12 +1,28 @@
 import { StyleSheet } from 'react-native';
 
-export default StyleSheet.create ({
-    appDefault:{
+
+export default StyleSheet.create({
+    appDefault: {
         backgroundColor: '#3755F1',
-        justifyContent: 'center', 
-        alignItems: 'center', 
+        justifyContent: 'center',
+        alignItems: 'center',
         flex: 1,
-        paddingTop: 30
+        paddingTop: 30,
+    },
+    appDefault2: {
+        backgroundColor: '#3755F1',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flex: 1,
+
+    },
+
+    appDefault4: {
+        backgroundColor: '#3755F1',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flex: 1,
+        flexDirection: 'row',
     },
     botaoEnviar: {
         borderWidth: 2,
@@ -41,19 +57,36 @@ export default StyleSheet.create ({
         color: 'white'
     },
     textoDoTitulo: {
-        fontSize: 36,
-        color: '#FFF',
-        fontWeight: '300',
-        
-        marginTop: 30,
+        fontSize: 40,
+        color: '#000',
+        fontWeight: '230',
+        fontWeight: 'bold',
+        marginTop: 10,
         marginBottom: 50,
         justifyContent: 'center',
         textAlign: 'center',
+    },
+    textoDoTituloAg: {
+        fontSize: 40,
+        color: 'red',
+        fontWeight: '230',
+        fontWeight: 'bold',
+        marginTop: 10,
+        marginBottom:50,
+        justifyContent: 'center',
+        textAlign: 'center',
+
     },
     logoBarbearia: {
         width: 250,
         height: 250,
         resizeMode: 'stretch',
+    },
+    TESTELINE: {
+        width: 350,
+        height: 2,
+        resizeMode: 'stretch',
+        backgroundColor: 'orange'
     },
     textInputSenha: {
         color: '#FFFF',
@@ -74,14 +107,14 @@ export default StyleSheet.create ({
         width: 250,
         borderRadius: 30,
         borderColor: '#FFF',
-        textAlign:'center',
+        textAlign: 'center',
         backgroundColor: '#3755F1'
     },
     textbuttonentrar: {
         color: '#FFF',
         justifyContent: 'center',
         fontSize: 25,
-        textAlign:'center',
+        textAlign: 'center',
     },
     button: {
         borderWidth: 2,
@@ -90,7 +123,7 @@ export default StyleSheet.create ({
         width: 230,
         height: 50,
         backgroundColor: 'transparent',
-        margin: 25,
+        margin: 30,
         justifyContent: 'center'
     },
     text: {
@@ -106,9 +139,10 @@ export default StyleSheet.create ({
         resizeMode: 'stretch',
 
     },
+
     texthome: {
         fontSize: 30,
-        color: 'white',
+        color: '#000',
         textAlign: 'center',
         justifyContent: 'center',
     },
@@ -137,8 +171,8 @@ export default StyleSheet.create ({
         fontSize: 20,
         color: "#fff",
         textAlign: "center",
-      },
-      InputPerfil: {
+    },
+    InputPerfil: {
         borderRadius: 30,
         backgroundColor: '#FFFF',
         width: 300,
@@ -179,6 +213,98 @@ export default StyleSheet.create ({
         backgroundColor: "#3755F1",
         justifyContent: "center",
         marginTop: 20,
-      },
+    },
+    botaoCadastrartext: {
+        width: 220,
+        height: 30,
+        backgroundColor: "transparent",
+        justifyContent: "flex-start",
+        marginTop: 10,
+    },
+    ButtonCadastro: {
+        borderColor: '#000',
+        width: 70,
+        height: 10,
+        marginRight: 140,
+        backgroundColor: 'transparent',
+        justifyContent: 'space-evenly'
+    },
+    ButtonSalvar: {
+        borderColor: '#FFF',
+        borderWidth: 2,
+        borderRadius: 40,
+        width: 250,
+        height: 45,
+        margin: 50,
+        backgroundColor: 'transparent',
+    },
+    botaoSalvartext: {
+        color: '#fff',
+        height: 40,
+        fontSize: 25,
+        backgroundColor: "transparent",
+        justifyContent: "center",
+        textAlign: 'center',
+    },
+    containerLocalizacao2: {
+        backgroundColor: '#fff',
+        flexDirection: 'row',
+        borderWidth: 1,
+        borderColor: '#000',
+        borderRadius: 30,
+        width: '80%',
+        height: 100,
+
+    },
+    tituloInput2: {
+        color: '#000',
+        fontSize: 20,
+        width: '190%',
+        height: 90,
+        marginVertical: 10,
+        textAlign: 'center',
+        justifyContent: 'center',
+    },
+    tituloInput3: {
+        color: 'orange',
+        fontSize: 14,
+        width: '190%',
+        marginVertical: -50,
+        height: 90,
+        textAlign: 'center',
+        justifyContent: 'center',
+    },
+    ButtonAgendamento: {
+        borderColor: '#000',
+        width: 110,
+        height: 35,
+        borderRadius: 50,
+        marginRight: 140,
+        backgroundColor: 'orange',
+        justifyContent: 'space-evenly'
+    },
+    botaoAgendarText: {
+        width: 95,
+        height: 25,
+        fontSize: 18,
+        marginHorizontal: 9,
+        backgroundColor: "transparent",
+        justifyContent: "center",
+    },
+    Buttonname1: {
+        borderColor: '#000',
+        width: 40,
+        height: 10,
+        marginRight: 40,
+        backgroundColor: 'transparent',
+        justifyContent: 'space-evenly'
+    },
+    botaonametext: {
+        width: 60,
+        height: 30,
+        backgroundColor: "transparent",
+        justifyContent: "flex-start",
+        marginTop: 10,
+    },
 }
 )

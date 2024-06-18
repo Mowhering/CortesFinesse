@@ -3,9 +3,9 @@ import StackRoutes from "./Stackroutes";
 
 
 export default function Login() {
-    return(
-    <NavigationContainer>
-    <StackRoutes/>
-    </NavigationContainer>
+    return (
+        <NavigationContainer>
+            <StackRoutes />
+        </NavigationContainer>
     )
 }
