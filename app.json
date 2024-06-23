@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Finesse",
+    "slug": "Finesse",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
